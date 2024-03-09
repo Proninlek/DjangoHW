@@ -1,0 +1,143 @@
+Watching for file changes with StatReloader
+"GET /index/ HTTP/1.1" 200 11
+"GET /index/ HTTP/1.1" 200 11
+"GET /head HTTP/1.1" 301 0
+"GET /head/ HTTP/1.1" 200 14
+F:\Моя учеба\ДЗ\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2394
+Internal Server Error: /head/
+Traceback (most recent call last):
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Моя учеба\ДЗ\Django\myproject\myapp\views.py", line 12, in startlist
+    return render(request, "page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: page.html
+"GET /head/ HTTP/1.1" 500 76874
+Internal Server Error: /head/
+Traceback (most recent call last):
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Моя учеба\ДЗ\Django\myproject\myapp\views.py", line 12, in startlist
+    return render(request, "page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: page.html
+"GET /head/ HTTP/1.1" 500 77011
+Internal Server Error: /head/
+Traceback (most recent call last):
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Моя учеба\ДЗ\Django\myproject\myapp\views.py", line 12, in startlist
+    return render(request, "page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: page.html
+"GET /head/ HTTP/1.1" 500 77011
+Internal Server Error: /head/
+Traceback (most recent call last):
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Моя учеба\ДЗ\Django\myproject\myapp\views.py", line 12, in startlist
+    return render(request, "page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zver\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: page.html
+"GET /head/ HTTP/1.1" 500 77011
+F:\Моя учеба\ДЗ\Django\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Моя учеба\ДЗ\Django\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Моя учеба\ДЗ\Django\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Моя учеба\ДЗ\Django\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+F:\Моя учеба\ДЗ\Django\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+F:\Моя учеба\ДЗ\Django\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Моя учеба\ДЗ\Django\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Моя учеба\ДЗ\Django\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+F:\Моя учеба\ДЗ\Django\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+F:\Моя учеба\ДЗ\Django\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2396
+Not Found: /head/
+"GET /head/ HTTP/1.1" 404 2429
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 161
+"GET /index/ HTTP/1.1" 200 161
+"GET /index/ HTTP/1.1" 200 225
+"GET /index/ HTTP/1.1" 200 226
+"GET /about/ HTTP/1.1" 200 169
+"GET /about/ HTTP/1.1" 200 219
+Not Found: /about/index
+"GET /about/index HTTP/1.1" 404 2447
+"GET /index HTTP/1.1" 301 0
+"GET /index/ HTTP/1.1" 200 226
+"GET /index/ HTTP/1.1" 200 226
+"GET /about/ HTTP/1.1" 200 217
+Not Found: /about/index
+"GET /about/index HTTP/1.1" 404 2447
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2396
+"GET /about/ HTTP/1.1" 200 252
+"GET /about/ HTTP/1.1" 200 264
