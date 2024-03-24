@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+    {% block title %}
+        Мои мучения
+    {% endblock %}
+
+    {% block content %}
+        <p><a href="{% url 'index' %}">Главная</a></p>
+        <h1>Информационная страница!</h1>
+
+        <p>Информация о пользователях: </p>
+            {% for val in users %}
+                {{ val }} <br>
+            {% endfor %} <br><br>
+        <p>Информация о продуктах: </p>
+            {% for val in products %}
+                {{ val }} <br>
+            {% endfor %} <br><br>
+        <p>Информация о заказах: </p>
+            {% for val in orders %}
+                {{ val }} <br>
+            {% endfor %} <br><br>       
+
+        <p>Закончили</p>
+        
+    {% endblock %}
